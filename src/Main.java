@@ -1,7 +1,8 @@
 public class Main {
     public static void  main(String[]args){
 
-        int lightId = 1;
+
+        int lightId = 101;
         boolean isLightOn = false;
         int brightness = 0;
 
@@ -22,6 +23,7 @@ public class Main {
         }else {
             System.out.println("Fel: ogiltig ljusstyrka!");
         }
+
 
     }
 }
