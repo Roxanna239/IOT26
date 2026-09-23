@@ -8,8 +8,18 @@ public class Main {
         lampa2.turnOn();
         lampa2.turnOff();
 
+        DoorSensor dörr1 = new DoorSensor("D1");
+        dörr1.openDoor();
+        dörr1.closeDoor();
 
+        DoorSensor dörr2 =new DoorSensor("D2");
+        dörr2.openDoor();
+        dörr2.closeDoor();
+
+        dörr1.openDoor();
+        if(dörr1.isOpen) {
+            lampa1.turnOn();
+        }
     }
-
 }
 
